@@ -24,7 +24,6 @@ int main() {
     }
     printf("]\n");
 
-    // Calculate sum
     for (i = 0; i < n; i++) {
         sum += arr[i];
     }
