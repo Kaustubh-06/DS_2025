@@ -64,7 +64,6 @@ int main() {
     // Reverse the linked list
     head = reverseList(head);
 
-    // Print reversed linked list
     printList(head);
 
     return 0;

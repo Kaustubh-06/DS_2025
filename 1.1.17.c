@@ -52,7 +52,6 @@ void deleteNode(struct Node **head, int value) {
     free(temp);
 }
 
-// Function to traverse and print
 void traverse(struct Node *head) {
     struct Node *temp = head;
     while (temp != NULL) {

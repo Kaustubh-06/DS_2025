@@ -19,7 +19,6 @@ int main() {
         }
     }
 
-    // Check sparse condition: more than half elements are zeros
     if (zeroCount > nonZeroCount && nonZeroCount > 0) {
         // Print triplet form for non-zero elements
         for (int i = 0; i < rows; i++) {

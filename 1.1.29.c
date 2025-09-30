@@ -41,7 +41,6 @@ int main() {
         printf("%d\n", peek_outputs[i]);
     }
 
-    // Print final stack from top to bottom
     if (top < 0) {
         printf("Empty\n");
     } else {

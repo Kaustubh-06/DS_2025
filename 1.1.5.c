@@ -8,7 +8,6 @@ int main() {
 
     int arr[n];
 
-    // Read array elements
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }

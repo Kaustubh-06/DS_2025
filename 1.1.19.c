@@ -99,7 +99,6 @@ int main() {
 
     traverse(head);
 
-    // Free allocated memory
     if (head != NULL) {
         struct Node *temp = head->next, *nextNode;
         while (temp != head) {

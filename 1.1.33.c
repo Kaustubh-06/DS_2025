@@ -55,7 +55,6 @@ int main() {
     // Reverse the stack
     reverseStack(&s);
 
-    // Print reversed stack
     for (int i = 0; i <= s.top; i++) {
         printf("%d", s.arr[i]);
         if (i < s.top) printf(" ");

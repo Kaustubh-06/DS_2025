@@ -48,7 +48,6 @@ int main() {
     int key;
     scanf("%d", &key);
 
-    // Sort array based on value
     qsort(arr, n, sizeof(struct Element), cmp);
 
     int res = binarySearch(arr, n, key);

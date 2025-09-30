@@ -13,7 +13,6 @@ int main() {
     int ch = getchar();
     while (ch != '\n' && ch != EOF) ch = getchar();
 
-    // read second line
     char line[100000];
     if (!fgets(line, sizeof(line), stdin)) {
         printf("-1");

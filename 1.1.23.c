@@ -67,7 +67,6 @@ int main() {
         tail = newNode;
     }
 
-    // Reverse list
     head = reverseList(head);
 
     // Print reversed list

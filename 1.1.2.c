@@ -13,7 +13,6 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    // Print the array in [a, b, c] format
     printf("[");
     for (i = 0; i < n; i++) {
         if (i == n - 1) {

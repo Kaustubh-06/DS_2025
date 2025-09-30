@@ -3,7 +3,6 @@
 int main() {
     int n, i;
 
-    // Read size of array
     scanf("%d", &n);
 
     int arr[n];

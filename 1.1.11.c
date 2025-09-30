@@ -13,7 +13,6 @@ void sortArray(int arr[], int n) {
     }
 }
 
-// Function to find last occurrence using binary search
 int binarySearchLast(int arr[], int n, int key) {
     int low = 0, high = n - 1, result = -1;
 

@@ -78,7 +78,6 @@ int main() {
 
     traverse(head);
 
-    // Free memory
     if (head != NULL) {
         struct Node *curr = head->next, *nextNode;
         while (curr != head) {

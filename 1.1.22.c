@@ -100,7 +100,6 @@ int main() {
         }
     }
 
-    // Print results at once
     for (int i = 0; i < t; i++) {
         printf("%s\n", results[i]);
     }

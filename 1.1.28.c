@@ -112,7 +112,6 @@ int main() {
     // Display second polynomial
     displayPolynomial(poly2);
 
-    // Display sum
     struct PolyNode* sum = addPolynomials(poly1, poly2);
     displayPolynomial(sum);
 

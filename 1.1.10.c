@@ -15,7 +15,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         if (arr[i] == key) {
             found = i;
-            break;  // stop at the first occurrence
+            break;  
         }
     }
 

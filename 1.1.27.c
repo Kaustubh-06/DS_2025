@@ -61,7 +61,6 @@ int main() {
         tail->next = nodes[X - 1]; // position starts from 1
     }
 
-    // Check for loop
     if (hasLoop(head)) {
         printf("True\n");
     } else {

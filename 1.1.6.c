@@ -15,7 +15,6 @@ int main() {
         }
     }
 
-    // Print row-major order
     for (i = 0; i < rows; i++) {
         for (j = 0; j < cols; j++) {
             printf("%d ", arr[i][j]);

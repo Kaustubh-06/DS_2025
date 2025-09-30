@@ -45,7 +45,6 @@ int main() {
         curr = curr->next;
     }
 
-    // Find and print middle element
     printf("%d\n", findMiddle(head));
 
     return 0;

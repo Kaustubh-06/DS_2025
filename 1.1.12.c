@@ -9,7 +9,6 @@ int main() {
         return 0;
     }
 
-    // consume the rest of the line after n
     int ch = getchar();
     while (ch != '\n' && ch != EOF) ch = getchar();
 

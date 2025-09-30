@@ -92,7 +92,6 @@ int main() {
 
     traverse(head);
 
-    // Free memory
     struct Node *temp;
     while (head != NULL) {
         temp = head;

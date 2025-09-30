@@ -20,7 +20,6 @@ int main() {
         }
     }
 
-    // Check if sparse
     if (zeroCount > nonZeroCount) {
         printf("True\n");
         // Print non-zero elements
